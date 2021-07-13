@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE4E400B256946B4008568FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E400A256946B4008568FF /* AppDelegate.swift */; };
+		CE4E400D256946B4008568FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E400C256946B4008568FF /* SceneDelegate.swift */; };
+		CE4E400F256946B4008568FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E400E256946B4008568FF /* ViewController.swift */; };
+		CE4E4012256946B4008568FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4E4010256946B4008568FF /* Main.storyboard */; };
+		CE4E4014256946B6008568FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4E4013256946B6008568FF /* Assets.xcassets */; };
+		CE4E4017256946B6008568FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4E4015256946B6008568FF /* LaunchScreen.storyboard */; };
+		CE4E4022256946B6008568FF /* CasinoOllaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E4021256946B6008568FF /* CasinoOllaTests.swift */; };
+		CE4E402D256946B6008568FF /* CasinoOllaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E402C256946B6008568FF /* CasinoOllaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE4E401E256946B6008568FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE4E3FFF256946B4008568FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE4E4006256946B4008568FF;
+			remoteInfo = CasinoOlla;
+		};
+		CE4E4029256946B6008568FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE4E3FFF256946B4008568FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE4E4006256946B4008568FF;
+			remoteInfo = CasinoOlla;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE4E4007256946B4008568FF /* CasinoOlla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CasinoOlla.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4E400A256946B4008568FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE4E400C256946B4008568FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE4E400E256946B4008568FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE4E4011256946B4008568FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE4E4013256946B6008568FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE4E4016256946B6008568FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE4E4018256946B6008568FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4E401D256946B6008568FF /* CasinoOllaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CasinoOllaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4E4021256946B6008568FF /* CasinoOllaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasinoOllaTests.swift; sourceTree = "<group>"; };
+		CE4E4023256946B6008568FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4E4028256946B6008568FF /* CasinoOllaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CasinoOllaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4E402C256946B6008568FF /* CasinoOllaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasinoOllaUITests.swift; sourceTree = "<group>"; };
+		CE4E402E256946B6008568FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE4E4004256946B4008568FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4E401A256946B6008568FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4E4025256946B6008568FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE4E3FFE256946B4008568FF = {
+			isa = PBXGroup;
+			children = (
+				CE4E4009256946B4008568FF /* CasinoOlla */,
+				CE4E4020256946B6008568FF /* CasinoOllaTests */,
+				CE4E402B256946B6008568FF /* CasinoOllaUITests */,
+				CE4E4008256946B4008568FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE4E4008256946B4008568FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE4E4007256946B4008568FF /* CasinoOlla.app */,
+				CE4E401D256946B6008568FF /* CasinoOllaTests.xctest */,
+				CE4E4028256946B6008568FF /* CasinoOllaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE4E4009256946B4008568FF /* CasinoOlla */ = {
+			isa = PBXGroup;
+			children = (
+				CE4E400A256946B4008568FF /* AppDelegate.swift */,
+				CE4E400C256946B4008568FF /* SceneDelegate.swift */,
+				CE4E400E256946B4008568FF /* ViewController.swift */,
+				CE4E4010256946B4008568FF /* Main.storyboard */,
+				CE4E4013256946B6008568FF /* Assets.xcassets */,
+				CE4E4015256946B6008568FF /* LaunchScreen.storyboard */,
+				CE4E4018256946B6008568FF /* Info.plist */,
+			);
+			path = CasinoOlla;
+			sourceTree = "<group>";
+		};
+		CE4E4020256946B6008568FF /* CasinoOllaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE4E4021256946B6008568FF /* CasinoOllaTests.swift */,
+				CE4E4023256946B6008568FF /* Info.plist */,
+			);
+			path = CasinoOllaTests;
+			sourceTree = "<group>";
+		};
+		CE4E402B256946B6008568FF /* CasinoOllaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE4E402C256946B6008568FF /* CasinoOllaUITests.swift */,
+				CE4E402E256946B6008568FF /* Info.plist */,
+			);
+			path = CasinoOllaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE4E4006256946B4008568FF /* CasinoOlla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE4E4031256946B6008568FF /* Build configuration list for PBXNativeTarget "CasinoOlla" */;
+			buildPhases = (
+				CE4E4003256946B4008568FF /* Sources */,
+				CE4E4004256946B4008568FF /* Frameworks */,
+				CE4E4005256946B4008568FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CasinoOlla;
+			productName = CasinoOlla;
+			productReference = CE4E4007256946B4008568FF /* CasinoOlla.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE4E401C256946B6008568FF /* CasinoOllaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE4E4034256946B6008568FF /* Build configuration list for PBXNativeTarget "CasinoOllaTests" */;
+			buildPhases = (
+				CE4E4019256946B6008568FF /* Sources */,
+				CE4E401A256946B6008568FF /* Frameworks */,
+				CE4E401B256946B6008568FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE4E401F256946B6008568FF /* PBXTargetDependency */,
+			);
+			name = CasinoOllaTests;
+			productName = CasinoOllaTests;
+			productReference = CE4E401D256946B6008568FF /* CasinoOllaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE4E4027256946B6008568FF /* CasinoOllaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE4E4037256946B6008568FF /* Build configuration list for PBXNativeTarget "CasinoOllaUITests" */;
+			buildPhases = (
+				CE4E4024256946B6008568FF /* Sources */,
+				CE4E4025256946B6008568FF /* Frameworks */,
+				CE4E4026256946B6008568FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE4E402A256946B6008568FF /* PBXTargetDependency */,
+			);
+			name = CasinoOllaUITests;
+			productName = CasinoOllaUITests;
+			productReference = CE4E4028256946B6008568FF /* CasinoOllaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE4E3FFF256946B4008568FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					CE4E4006256946B4008568FF = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					CE4E401C256946B6008568FF = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = CE4E4006256946B4008568FF;
+					};
+					CE4E4027256946B6008568FF = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = CE4E4006256946B4008568FF;
+					};
+				};
+			};
+			buildConfigurationList = CE4E4002256946B4008568FF /* Build configuration list for PBXProject "CasinoOlla" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE4E3FFE256946B4008568FF;
+			productRefGroup = CE4E4008256946B4008568FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE4E4006256946B4008568FF /* CasinoOlla */,
+				CE4E401C256946B6008568FF /* CasinoOllaTests */,
+				CE4E4027256946B6008568FF /* CasinoOllaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE4E4005256946B4008568FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4E4017256946B6008568FF /* LaunchScreen.storyboard in Resources */,
+				CE4E4014256946B6008568FF /* Assets.xcassets in Resources */,
+				CE4E4012256946B4008568FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4E401B256946B6008568FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4E4026256946B6008568FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE4E4003256946B4008568FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4E400F256946B4008568FF /* ViewController.swift in Sources */,
+				CE4E400B256946B4008568FF /* AppDelegate.swift in Sources */,
+				CE4E400D256946B4008568FF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4E4019256946B6008568FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4E4022256946B6008568FF /* CasinoOllaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4E4024256946B6008568FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4E402D256946B6008568FF /* CasinoOllaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE4E401F256946B6008568FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE4E4006256946B4008568FF /* CasinoOlla */;
+			targetProxy = CE4E401E256946B6008568FF /* PBXContainerItemProxy */;
+		};
+		CE4E402A256946B6008568FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE4E4006256946B4008568FF /* CasinoOlla */;
+			targetProxy = CE4E4029256946B6008568FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE4E4010256946B4008568FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE4E4011256946B4008568FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE4E4015256946B6008568FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE4E4016256946B6008568FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE4E402F256946B6008568FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE4E4030256946B6008568FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE4E4032256946B6008568FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C59M3SUUDH;
+				INFOPLIST_FILE = CasinoOlla/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zvezda.CasinoOlla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE4E4033256946B6008568FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C59M3SUUDH;
+				INFOPLIST_FILE = CasinoOlla/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zvezda.CasinoOlla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE4E4035256946B6008568FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C59M3SUUDH;
+				INFOPLIST_FILE = CasinoOllaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zvezda.CasinoOllaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CasinoOlla.app/CasinoOlla";
+			};
+			name = Debug;
+		};
+		CE4E4036256946B6008568FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C59M3SUUDH;
+				INFOPLIST_FILE = CasinoOllaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zvezda.CasinoOllaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CasinoOlla.app/CasinoOlla";
+			};
+			name = Release;
+		};
+		CE4E4038256946B6008568FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C59M3SUUDH;
+				INFOPLIST_FILE = CasinoOllaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zvezda.CasinoOllaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CasinoOlla;
+			};
+			name = Debug;
+		};
+		CE4E4039256946B6008568FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C59M3SUUDH;
+				INFOPLIST_FILE = CasinoOllaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zvezda.CasinoOllaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CasinoOlla;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE4E4002256946B4008568FF /* Build configuration list for PBXProject "CasinoOlla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4E402F256946B6008568FF /* Debug */,
+				CE4E4030256946B6008568FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE4E4031256946B6008568FF /* Build configuration list for PBXNativeTarget "CasinoOlla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4E4032256946B6008568FF /* Debug */,
+				CE4E4033256946B6008568FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE4E4034256946B6008568FF /* Build configuration list for PBXNativeTarget "CasinoOllaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4E4035256946B6008568FF /* Debug */,
+				CE4E4036256946B6008568FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE4E4037256946B6008568FF /* Build configuration list for PBXNativeTarget "CasinoOllaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4E4038256946B6008568FF /* Debug */,
+				CE4E4039256946B6008568FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE4E3FFF256946B4008568FF /* Project object */;
+}
